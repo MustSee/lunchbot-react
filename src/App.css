@@ -1,0 +1,44 @@
+.App {
+    height: 100%;
+    display: flex;
+}
+
+.map {
+  background-color: blue;
+  height: 100vh;
+  width: 50%;
+}
+
+.secondHalf{
+    background-color: #9da0a4;
+    height: 100vh;
+    width: 50%;
+}
+
+.top {
+    background-color: #fafae1;
+    height: 20%;
+}
+
+.main {
+    background-color: #342434;
+    height: 80%;
+}
+
+.main ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+}
+
+.main ul li:hover {
+    background-color: #AAA;
+    cursor: pointer;
+}
+
+.addSpotFormula {
+    padding: 20px;
+    margin: 50px;
+    color: white;
+}
